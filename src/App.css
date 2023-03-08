@@ -1,0 +1,62 @@
+.header_content {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.weather_header {
+  color: #fff;
+  width: 170px;
+  border-radius: 25px;
+  background: linear-gradient(
+    to right top,
+    #052453,
+    #003379,
+    #0042a1,
+    #0051ca,
+    #0060f4
+  );
+  margin-right: 15px;
+  padding: 25px;
+}
+
+.weather_gün {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.day-info {
+  margin-top: 15px;
+}
+
+.weather_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather_select {
+  border-radius: 15px;
+  color: #fff;
+  background-color: rgb(142, 54, 243);
+  width: 350px;
+  height: 35px;
+}
+
+.weather_form {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.dark {
+  font-size: 40px;
+  font-weight: 600;
+}
